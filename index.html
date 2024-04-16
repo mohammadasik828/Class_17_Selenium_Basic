@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+</head>
+<body>
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Selenium Practice</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6 col-lg-offset-3">
+                        <div class="signup-form">
+                            <form action="" method="get" class="form-example">
+                                <div class="form-group float-left">
+                                    <label for="fname">First name:</label><br>
+                                <input type="text" id="fname" placeholder="First Name"><br><br>
+                                </div>
+                                <div class="form-group float-left">
+                                 <label for="lname">Last name:</label><br>
+                                <input type="text" id="lname" placeholder="Last Name"><br><br>
+                                </div>
+                                <label for="pnumber">Phone Number:</label><br>
+                                <input type="text" id="pnumber" placeholder="Phone Number"><br>
+                                <label for="lname">Email:</label><br>
+                                <input type="text" name="email" placeholder="Email"><br>
+                                <label for="lname">Address:</label><br>
+                                <input type="text" class="adress" placeholder="Address"><br>
+                                 <div class="checkbox-area">
+                                        <p>Which java course you want to start?</p>
+
+                                        <div>
+                                        <input type="checkbox" id="scales" name="scales" checked>
+                                        <label for="scales">Core</label>
+                                        </div>
+                                        
+                                        <div>
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label for="horns">OOP</label>
+                                        </div>   
+
+
+                                 </div>
+                                 <div class="radiobox-area">
+                                    <p>Do you want to start Selenium Framework?</p>
+
+                                    <input type="radio" id="contactChoice1"
+                                    name="contact" value="Yes">
+                                    <label for="contactChoice1">I want to start</label>
+
+                                    <input type="radio" id="contactChoice2"
+                                    name="contact" value="No">
+                                    <label for="contactChoice2">I don't want to start</label>
+
+                                 </div>
+                                 <div class="selectbox-area">
+                                  <p>Which subject did you like best in the Java course?</p>
+                                  <label for="selectone">Please Select any one topic:</label><br>
+                                  <select name="select">
+                                    <option value="valor1">If else</option> 
+                                    <option value="valor2" >Looping</option>
+                                    <option value="valor3">Method</option>
+                                    <option value="valor3">Array</option>
+                                    <option value="valor3"selected>Object Oriented Programing</option>
+                                    <option value="valor3">All Topic</option>
+                                  </select>
+
+
+                                 </div>
+								 
+								 <BR>
+								 <a href="https://www.bangladesh.gov.bd">Click here to visit Bangladesh</a>
+								 
+								 <BR>
+								 <a href="https://www.usa.gov">Click here to visit USA</a>
+								 
+								 <p id="myP"></p>
+                                
+								 <p class="submit-btn" onclick="myFunction()" id="submited">Submit</p>
+                                <p id="success"></p>
+                    
+                                    <script>
+									
+									
+									
+									
+								function myFunction() {
+										 	 document.getElementById("submited").innerHTML = " Submited";
+											document.getElementById("success").innerHTML = "Successfully Submited";
+										}
+									
+											
+								</script>
+								
+                              </form>
+							  <style>
+							    .submit-btn{
+								border: 1px solid;
+							    width:65px;
+							    padding-left:4px;
+							  </style>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
